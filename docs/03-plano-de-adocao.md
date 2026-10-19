@@ -116,7 +116,7 @@ Novos pedidos entram no backlog e são pontuados pela mesma matriz de valor, via
 | Semana | Atividade | Responsável |
 | --- | --- | --- |
 | 1 | Alinhamento com Delivery Leads; escolha das equipes e Champions | Delivery Lead |
-| 1 a 2 | Entrevistas e medição da linha de base | Time AI Advanced Assets e Funcional SAP |
+| 1 a 2 | Entrevistas, mapeamento da base de conhecimento oficial e medição da linha de base | Time AI Advanced Assets e Funcional SAP |
 | 2 | Treinamento das equipes piloto | Funcional SAP |
 | 3 a 4 | Início do piloto com feedback e revisão semanal | Equipes piloto |
 | 4 | Primeiro relatório e decisão sobre ajustes | Delivery Lead, Champions, AI Advanced Assets e Funcional SAP |
