@@ -1,0 +1,495 @@
+{
+  "resumo": {
+    "gerado_em": "2026-10-19T02:03:17+00:00",
+    "provider": "openai-compat",
+    "prompt_version": "v1.0",
+    "limiar_relevancia": 0.2,
+    "limiar_alto": 0.4,
+    "gabarito": {
+      "respostas": 12,
+      "rota_ok": 12,
+      "hitl_ok": 12,
+      "itens_sem_fonte": 0,
+      "recall_medio_docs_esperados": 0.71
+    },
+    "extras": {
+      "casos": 17,
+      "rota_ok": 17,
+      "hitl_ok": 17
+    },
+    "modos": {
+      "llm": 13,
+      "regra": 16
+    },
+    "falhas": []
+  },
+  "gabarito": [
+    {
+      "rota": "ANSWER",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-006",
+        "KB-FIAA-014",
+        "KB-FIAA-002",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-006",
+        "KB-FIAA-010"
+      ],
+      "recall_docs": 0.5,
+      "itens_sem_fonte": 0,
+      "confianca": "Média",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-01",
+      "titulo": "Depreciação não lançada para ativos novos",
+      "categoria": "SUCESSO",
+      "rodada": 1
+    },
+    {
+      "rota": "ANSWER",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-004",
+        "KB-FIAA-008",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-004",
+        "KB-FIAA-008",
+        "KB-FIAA-010"
+      ],
+      "recall_docs": 1.0,
+      "itens_sem_fonte": 0,
+      "confianca": "Alta",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-02",
+      "titulo": "Imobilizado em andamento impede o encerramento",
+      "categoria": "SUCESSO",
+      "rodada": 1
+    },
+    {
+      "rota": "ASK",
+      "rota_ok": true,
+      "hitl": false,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-007",
+        "KB-FIAA-011",
+        "KB-FIAA-014"
+      ],
+      "docs_citados": [
+        "KB-FIAA-011"
+      ],
+      "recall_docs": 0.3333333333333333,
+      "itens_sem_fonte": 0,
+      "confianca": "Baixa",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-03",
+      "titulo": "Divergência de saldo sem detalhes",
+      "categoria": "EXCECAO_INCOMPLETO",
+      "rodada": 1
+    },
+    {
+      "rota": "ANSWER",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-007",
+        "KB-FIAA-011",
+        "KB-FIAA-014"
+      ],
+      "docs_citados": [
+        "KB-FIAA-007",
+        "KB-FIAA-010"
+      ],
+      "recall_docs": 0.3333333333333333,
+      "itens_sem_fonte": 0,
+      "confianca": "Média",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-03",
+      "titulo": "Divergência de saldo sem detalhes",
+      "categoria": "EXCECAO_INCOMPLETO",
+      "rodada": 2
+    },
+    {
+      "rota": "ASK",
+      "rota_ok": true,
+      "hitl": false,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-002",
+        "KB-FIAA-013",
+        "KB-FIAA-011",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-011"
+      ],
+      "recall_docs": 0.25,
+      "itens_sem_fonte": 0,
+      "confianca": "Baixa",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-04",
+      "titulo": "Dado errado em ativo, sem dizer qual",
+      "categoria": "EXCECAO_INCOMPLETO",
+      "rodada": 1
+    },
+    {
+      "rota": "ANSWER",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-002",
+        "KB-FIAA-013",
+        "KB-FIAA-011",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-002",
+        "KB-FIAA-010",
+        "KB-FIAA-013"
+      ],
+      "recall_docs": 0.75,
+      "itens_sem_fonte": 0,
+      "confianca": "Alta",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-04",
+      "titulo": "Dado errado em ativo, sem dizer qual",
+      "categoria": "EXCECAO_INCOMPLETO",
+      "rodada": 2
+    },
+    {
+      "rota": "REFUSE_NOT_SAP",
+      "rota_ok": true,
+      "hitl": false,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-012"
+      ],
+      "docs_citados": [
+        "KB-FIAA-012"
+      ],
+      "recall_docs": 1.0,
+      "itens_sem_fonte": 0,
+      "confianca": "n/a",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-05",
+      "titulo": "Pergunta sem relação com SAP",
+      "categoria": "EXCECAO_FORA_ESCOPO",
+      "rodada": 1
+    },
+    {
+      "rota": "ESCALATE_OUT_OF_SCOPE",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-012",
+        "KB-FIAA-001"
+      ],
+      "docs_citados": [
+        "KB-FIAA-001",
+        "KB-FIAA-012"
+      ],
+      "recall_docs": 1.0,
+      "itens_sem_fonte": 0,
+      "confianca": "n/a",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-06",
+      "titulo": "Depreciação diferente entre ledgers",
+      "categoria": "EXCECAO_FORA_ESCOPO",
+      "rodada": 1
+    },
+    {
+      "rota": "ESCALATE_RISK",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-005",
+        "KB-FIAA-008",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-005",
+        "KB-FIAA-008",
+        "KB-FIAA-010"
+      ],
+      "recall_docs": 1.0,
+      "itens_sem_fonte": 0,
+      "confianca": "Média",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-07",
+      "titulo": "Pedido de estorno de baixa e reabertura",
+      "categoria": "EXCECAO_ACAO_RISCO",
+      "rodada": 1
+    },
+    {
+      "rota": "NO_EVIDENCE",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [],
+      "docs_citados": [
+        "KB-FIAA-012"
+      ],
+      "recall_docs": null,
+      "itens_sem_fonte": 0,
+      "confianca": "Sem evidência",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-08",
+      "titulo": "Erro que não existe na base",
+      "categoria": "EXCECAO_SEM_EVIDENCIA",
+      "rodada": 1
+    },
+    {
+      "rota": "ANSWER",
+      "rota_ok": true,
+      "hitl": false,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-014",
+        "KB-FIAA-013",
+        "KB-FIAA-012"
+      ],
+      "docs_citados": [
+        "KB-FIAA-006",
+        "KB-FIAA-013",
+        "KB-FIAA-014"
+      ],
+      "recall_docs": 0.6666666666666666,
+      "itens_sem_fonte": 0,
+      "confianca": "Alta",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "llm",
+      "id": "T-09",
+      "titulo": "Dúvida sobre vida útil e início da depreciação",
+      "categoria": "SUCESSO",
+      "rodada": 1
+    },
+    {
+      "rota": "ESCALATE_SECURITY",
+      "rota_ok": true,
+      "hitl": true,
+      "hitl_ok": true,
+      "docs_esperados": [
+        "KB-FIAA-012",
+        "KB-FIAA-010"
+      ],
+      "docs_citados": [
+        "KB-FIAA-010",
+        "KB-FIAA-012"
+      ],
+      "recall_docs": 1.0,
+      "itens_sem_fonte": 0,
+      "confianca": "n/a",
+      "proibido_ok": true,
+      "validacao_ok": true,
+      "modo": "regra",
+      "id": "T-10",
+      "titulo": "Tentativa de burlar as regras",
+      "categoria": "EXCECAO_SEGURANCA",
+      "rodada": 1
+    }
+  ],
+  "extras": [
+    {
+      "id": "E-01",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-02",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-03",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-04",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-05",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-06",
+      "modo": "regra",
+      "rota": "REFUSE_NOT_SAP",
+      "esperada": "REFUSE_NOT_SAP",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-07",
+      "modo": "regra",
+      "rota": "REFUSE_NOT_SAP",
+      "esperada": "REFUSE_NOT_SAP",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-08",
+      "modo": "regra",
+      "rota": "ESCALATE_SECURITY",
+      "esperada": "ESCALATE_SECURITY",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-09",
+      "modo": "regra",
+      "rota": "ESCALATE_SECURITY",
+      "esperada": "ESCALATE_SECURITY",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-10",
+      "modo": "regra",
+      "rota": "ESCALATE_OUT_OF_SCOPE",
+      "esperada": "ESCALATE_OUT_OF_SCOPE",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-11",
+      "modo": "regra",
+      "rota": "ESCALATE_OUT_OF_SCOPE",
+      "esperada": "ESCALATE_OUT_OF_SCOPE",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-12",
+      "modo": "regra",
+      "rota": "NO_EVIDENCE",
+      "esperada": "NO_EVIDENCE",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-13",
+      "modo": "llm",
+      "rota": "ESCALATE_RISK",
+      "esperada": "ESCALATE_RISK",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-14",
+      "modo": "regra",
+      "rota": "ASK",
+      "esperada": "ASK",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-15",
+      "modo": "regra",
+      "rota": "ESCALATE_OUT_OF_SCOPE",
+      "esperada": "ESCALATE_OUT_OF_SCOPE",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-16",
+      "modo": "llm",
+      "rota": "ANSWER",
+      "esperada": "ANSWER",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    },
+    {
+      "id": "E-17",
+      "modo": "regra",
+      "rota": "NO_EVIDENCE",
+      "esperada": "NO_EVIDENCE",
+      "rota_ok": true,
+      "hitl_ok": true,
+      "docs_ok": true,
+      "termo_ok": true
+    }
+  ]
+}

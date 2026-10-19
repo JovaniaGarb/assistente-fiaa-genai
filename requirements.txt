@@ -1,0 +1,5 @@
+# Modo padrão (offline, sem LLM): apenas a biblioteca padrão do Python 3.10+.
+# Testes:
+pytest>=8
+# Modo LLM (opcional): descomente e defina ANTHROPIC_API_KEY
+# anthropic>=0.40

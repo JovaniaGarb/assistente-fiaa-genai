@@ -1,0 +1,18 @@
+{
+  "id": "HITL-0006",
+  "ticket_id": "T-07",
+  "rota": "ESCALATE_RISK",
+  "motivo": "ESCALATE_RISK",
+  "acoes_propostas": [
+    "Liquidar AuC (AIAB) ou estornar liquidação: Gera documentos de capitalização; estorno exige ordem cronológica [HELP p.136, p.182]",
+    "Executar ou desfazer o encerramento de exercício (FAA_CMP): Após fechar, não se lança nem altera valores; desfazer reabre o último ano [HELP p.190-191]",
+    "Baixa e estorno de baixa: Gera ganho ou perda e ajusta depreciação acumulada [HELP p.173, p.181]"
+  ],
+  "status": "REJEITADO",
+  "criado_em": "2026-10-18T00:52:43+00:00",
+  "decisao": {
+    "revisor": "maria.silva (consultora)",
+    "comentario": "Reprovado hoje: aguardar conferência do período com a controladoria; não reabrir o exercício",
+    "em": "2026-10-18T00:52:43+00:00"
+  }
+}
