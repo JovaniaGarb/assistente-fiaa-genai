@@ -32,6 +32,7 @@
 1. **Entrevistas** com Delivery Leads e Champions para entender onde o tempo se perde, quais chamados retornam por falta de informação e onde as respostas variam entre consultores.
 2. **Amostra de chamados** para medir a linha de base (tempo de primeira resposta e de resolução, retrabalho) e classificar por área.
 3. **Inventário de atividades candidatas**, priorizadas por valor, viabilidade e risco.
+4. **Mapeamento das bases de conhecimento oficiais**, validadas dentro do contexto da empresa.
 
 | Atividade | Tratamento |
 | --- | --- |
@@ -48,7 +49,7 @@
 | --- | --- |
 | **Delivery Lead** | Seleciona as equipes, libera tempo dos consultores, decide a passagem entre ondas e remove impedimentos |
 | **Champion** | Utiliza o assistente em chamados reais, registra feedback, valida respostas e documentos, apoia os colegas |
-| **Consultor funcional FI-AA** | Mantém e revisa a base de conhecimento; valida as recomendações |
+| **Consultor funcional FI-AA** | Mapeia, mantém e revisa a base de conhecimento; valida as recomendações |
 | **Time AI Advanced Assets e Funcional SAP** | Conduz a estratégia de adoção, treinamentos e acompanhamento; mantém a solução técnica (recuperação, prompts, registros e avaliação) |
 | **Segurança e Basis** | Aprovam o acesso somente leitura ao SAP na onda 2 |
 | **Controladoria e Auditoria** | Definem o que é risco contábil e validam as regras de validação humana |
@@ -72,7 +73,7 @@
 ## 6. Gestão de qualidade e riscos
 
 **Controles.**
-- Base de conhecimento com fonte, revisor e data em cada documento.
+- Base de conhecimento oficial com fonte, revisor e data em cada documento.
 - Conjunto padrão de 10 chamados executado **antes de qualquer mudança** na base ou nas instruções do assistente; a mudança só é publicada se nenhum critério regredir.
 - Verificação automática de que transações, campos e mensagens citados constam nas fontes.
 - Registro de cada atendimento: chamado, resposta, fontes, confiança e decisão humana.
