@@ -156,7 +156,7 @@ Novos pedidos entram no backlog e são pontuados pela mesma matriz de valor, via
 
 ## 11. Registro de decisões
 
-Decisões tomadas pelo Consultor Funcional SAP e pelo Consultor AI Advanced Assets.
+Decisões tomadas pelo Consultor Funcional SAP e pelo Consultor AI Advanced Assets (hipotético).
 
 | ID | Decisão | Justificativa | Responsável |
 | --- | --- | --- | --- |
